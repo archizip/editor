@@ -1,0 +1,139 @@
+@cyan: #81b9bf;
+@cyan-1: #e5ffff;
+
+body {
+  background: #f0f2f5;
+}
+
+.ant-layout-header {
+  background-color: @cyan;
+  padding: 0;
+  > i {
+    font-size: 30px;
+  }
+  h4 {
+    display: inline-block;
+  }
+  .ant-badge {
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+}
+
+.ant-list-item {
+  border-bottom: 1px solid rgba(0, 0, 0, .6) !important;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.ant-layout-content {
+  padding: 100px 0;
+}
+
+.ant-list-item-meta-description {
+  font-size: 16px;
+}
+
+.ant-list-item-meta-title {
+  font-size: 14px !important;
+}
+
+.ant-card-head {
+  padding: 0;
+  .ant-card-head-wrapper {
+    .ant-card-head-title {
+      padding: 20px;
+    }
+    .anticon-delete {
+      font-size: 20px;
+      &:hover {
+        cursor: pointer;
+        color: red;
+      }
+    }
+    .card-title {
+      font-size: 14px;
+      font-weight: 300;
+      text-overflow: ellipsis;
+      > span {
+        font-weight: 400;
+        display: block;
+      }
+    }
+    .ant-card-extra {
+      margin-right: 33px;
+    }
+  }
+
+}
+
+.ant-card-body {
+  padding: 20px !important;
+  .content-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.85);
+  }
+  ul {
+    list-style-type: none;
+    padding: 0 !important;
+    li {
+      padding: 5px 0;
+      line-height: 26px;
+      i {
+        float: right;
+        font-size: 22px;
+        color: green;
+        margin-right: 11px;
+        &:hover {
+          opacity: .8;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  input {
+    display: inline-block;
+    width: 70%;
+  }
+  i {
+    font-size: 22px;
+    color: green;
+    display: inline-block;
+    float: right;
+    margin-right: 11px;
+    &:hover {
+      opacity: .8;
+      cursor: pointer;
+    }
+  }
+}
+
+.ant-card {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.loader-content {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .65);
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.show-approved {
+  display: inline-block;
+  margin-right: 100px;
+  float: right;
+  > span {
+    margin-left: 10px;
+  }
+}
